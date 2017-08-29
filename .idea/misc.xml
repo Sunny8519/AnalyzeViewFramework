@@ -2,11 +2,9 @@
 <project version="4">
   <component name="EclipseCodeFormatter">
     <option name="defaultSettings" value="true" />
-    <option name="formatter" value="ECLIPSE" />
     <option name="id" value="1482200120685" />
     <option name="name" value="default" />
     <option name="pathToConfigFileJava" value="$USER_HOME$/Desktop/ZhiguanIOT-Code Style.xml" />
-    <option name="selectedJavaProfile" value="ZhiguanIOT - Code Style" />
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
