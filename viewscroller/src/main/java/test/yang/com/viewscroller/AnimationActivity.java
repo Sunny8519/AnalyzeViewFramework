@@ -1,5 +1,6 @@
 package test.yang.com.viewscroller;
 
+import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -43,8 +44,15 @@ public class AnimationActivity extends AppCompatActivity implements View.OnClick
         });
     }
 
+    private void animationWithRotation() {
+        ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(this.binding.ivHouse, "rotationY", 0, 180, 0, -180, 0);
+        objectAnimator.setDuration(3000);
+        objectAnimator.start();
+    }
+
     @Override
     public void onClick(View v) {
-        createAlphaAnimationByValueAnimator();
+//        createAlphaAnimationByValueAnimator();
+        animationWithRotation();
     }
 }

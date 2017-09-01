@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="text_color_gray_dark">#ad000000</color><!--字体黑色，不透明度68%-->
+    <color name="secondary_green">#80c269</color>
+    <color name="secondary_red">#d86868</color>
 </resources>

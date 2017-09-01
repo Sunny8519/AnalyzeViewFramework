@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="CustomToggleButton">
+    <!--自定义ToggleButton属性-->
+    <declare-styleable name="OutsideTextToggleButton">
         <attr name="leftText" format="string" />
         <attr name="rightText" format="string" />
-        <attr name="leftTextColor" format="color" />
-        <attr name="rightTextColor" format="color" />
-        <attr name="leftTextSize" format="dimension" />
-        <attr name="rightTextSize" format="dimension" />
+        <attr name="defaultTextColor" format="color" />
+        <attr name="checkedLeftTextColor" format="color" />
+        <attr name="checkedRightTextColor" format="color" />
+        <attr name="toggleButtonTextSize" format="dimension" />
+        <attr name="toggleButtonMargin" format="dimension" />
         <attr name="toggleButtonBackground" format="reference" />
     </declare-styleable>
 

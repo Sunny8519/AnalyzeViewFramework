@@ -4,6 +4,7 @@ import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -40,7 +41,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
 
         this.binding.btnClick.setOnClickListener(this);
-        this.binding.tbButton.setEnabled(false);
     }
 
     private void skipActivity(Class activityName) {
@@ -51,6 +51,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         skipActivity(AnimationActivity.class);
-        this.binding.tbButton.setChecked(true);
     }
 }
